@@ -1,0 +1,50 @@
+# ROS2 build outputs
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+
+# temporary files
+*.swp
+*.swo
+*~
+
+# logs
+*.log
+
+# CAN dump test files
+*_status_check.txt
+*_check.txt
+joint4_*.txt
+gripper_*.txt
+mode_write_*.txt
+startup_*.txt
+recv_state_*.txt
+# old one-off test scripts at workspace root
+/left_arm_demo_motion.py
+/left_arm_gripper_demo.py
+/left_arm_home_test.py
+/left_arm_relative_control.py
+/left_arm_tiny_test.py
+/left_gripper_open_close.py
+/move_left_home_action.py
+/move_left_joint1_action.py
+/move_left_joint1_plus.py
+/move_left_joint4_action.py
+/move_left_joint7_action.py
+/move_left_multi_joint_action.py
+/send_left_arm_home.py
+/send_left_arm_trajectory.py
+/test_mit_can1_read.py
+
+# CAN dump / test output files
+/joint7_before_after.txt
+/*_before_after.txt
